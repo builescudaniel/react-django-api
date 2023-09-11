@@ -1,12 +1,10 @@
 from django.db import models
-
-# Create your models here.
-from django.db import models
+from django.utils import timezone
 
 class Dashboard(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
-    timestamp = models.DateTimeField(auto_now_add=True)
+    timestamp = models.DateTimeField(default=timezone.now)
 
 class Product(models.Model):
     name = models.CharField(max_length=255)
@@ -27,6 +25,6 @@ class Cart(models.Model):
 class News(models.Model):
     title = models.CharField(max_length=255)
     content = models.TextField()
-    timestamp = models.DateTimeField(auto_now_add=True)
+    timestamp = models.DateTimeField(default=timezone.now)
 
 
