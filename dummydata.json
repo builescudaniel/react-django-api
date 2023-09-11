@@ -1,0 +1,211 @@
+[
+    {
+        "model": "my_app.dashboard",
+        "fields": {
+            "name": "Main Dashboard",
+            "description": "Overview of all key metrics"
+        }
+    },
+    {
+        "model": "my_app.dashboard",
+        "fields": {
+            "name": "Sales Dashboard",
+            "description": "Tracking sales metrics"
+        }
+    },
+    {
+        "model": "my_app.dashboard",
+        "fields": {
+            "name": "User Dashboard",
+            "description": "User engagement metrics"
+        }
+    },
+    {
+        "model": "my_app.dashboard",
+        "fields": {
+            "name": "Tech Dashboard",
+            "description": "Server and error metrics"
+        }
+    },
+    {
+        "model": "my_app.dashboard",
+        "fields": {
+            "name": "Finance Dashboard",
+            "description": "Financial indicators and tracking"
+        }
+    },
+    {
+        "model": "my_app.product",
+        "fields": {
+            "name": "Laptop",
+            "price": "799.99"
+        }
+    },
+    {
+        "model": "my_app.product",
+        "fields": {
+            "name": "Smartphone",
+            "price": "499.99"
+        }
+    },
+    {
+        "model": "my_app.product",
+        "fields": {
+            "name": "Camera",
+            "price": "299.99"
+        }
+    },
+    {
+        "model": "my_app.product",
+        "fields": {
+            "name": "Headphones",
+            "price": "99.99"
+        }
+    },
+    {
+        "model": "my_app.product",
+        "fields": {
+            "name": "Smartwatch",
+            "price": "199.99"
+        }
+    },
+    {
+        "model": "my_app.todo",
+        "fields": {
+            "task": "Learn Django",
+            "is_done": false
+        }
+    },
+    {
+        "model": "my_app.todo",
+        "fields": {
+            "task": "Learn React",
+            "is_done": false
+        }
+    },
+    {
+        "model": "my_app.todo",
+        "fields": {
+            "task": "Go jogging",
+            "is_done": false
+        }
+    },
+    {
+        "model": "my_app.todo",
+        "fields": {
+            "task": "Read a book",
+            "is_done": false
+        }
+    },
+    {
+        "model": "my_app.todo",
+        "fields": {
+            "task": "Buy groceries",
+            "is_done": false
+        }
+    },
+    {
+        "model": "my_app.cart",
+        "fields": {
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Laptop",
+                    "price": "799.99"
+                },
+                {
+                    "id": 2,
+                    "name": "Smartphone",
+                    "price": "499.99"
+                }
+            ],
+            "total": "1299.98"
+        }
+    },
+    {
+        "model": "my_app.cart",
+        "fields": {
+            "items": [
+                {
+                    "id": 3,
+                    "name": "Camera",
+                    "price": "299.99"
+                },
+                {
+                    "id": 4,
+                    "name": "Headphones",
+                    "price": "99.99"
+                }
+            ],
+            "total": "399.98"
+        }
+    },
+    {
+        "model": "my_app.cart",
+        "fields": {
+            "items": [
+                {
+                    "id": 5,
+                    "name": "Smartwatch",
+                    "price": "199.99"
+                }
+            ],
+            "total": "199.99"
+        }
+    },
+    {
+        "model": "my_app.cart",
+        "fields": {
+            "items": [],
+            "total": "0.00"
+        }
+    },
+    {
+        "model": "my_app.cart",
+        "fields": {
+            "items": [
+                {
+                    "id": 6,
+                    "name": "Tablet",
+                    "price": "399.99"
+                }
+            ],
+            "total": "399.99"
+        }
+    },
+    {
+        "model": "my_app.news",
+        "fields": {
+            "title": "Breaking: New Django Release",
+            "content": "A new version of Django has been released today."
+        }
+    },
+    {
+        "model": "my_app.news",
+        "fields": {
+            "title": "React Conf 2023 Highlights",
+            "content": "Top 5 takeaways from the React Conference 2023."
+        }
+    },
+    {
+        "model": "my_app.news",
+        "fields": {
+            "title": "Vue 4: What to Expect",
+            "content": "New features and improvements in Vue 4."
+        }
+    },
+    {
+        "model": "my_app.news",
+        "fields": {
+            "title": "Cloud Computing in 2024",
+            "content": "Predictions for the cloud computing industry."
+        }
+    },
+    {
+        "model": "my_app.news",
+        "fields": {
+            "title": "Cybersecurity Trends",
+            "content": "How cybersecurity trends are shaping the future."
+        }
+    }
+]
